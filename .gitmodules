@@ -1,6 +1,0 @@
-[submodule "pd-lib-builder"]
-	path = pd-lib-builder
-	url = https://github.com/myQwil/pd-lib-builder.git
-[submodule "game-music-emu"]
-	path = game-music-emu
-	url = https://bitbucket.org/myQwil/game-music-emu.git
