@@ -7,16 +7,21 @@ const Options = struct {
 };
 
 const externals = [_][]const u8{
+	"arp",
+	"blunt",
 	"chrono",
 	"delp",
 	"fldec",
 	"flenc",
 	"fton",
 	"has",
+	"hsv",
 	"is",
 	"linp",
 	"linp~",
+	"metro~",
 	"ntof",
+	"paq",
 	"rand",
 	"rind",
 	"same",
@@ -24,6 +29,7 @@ const externals = [_][]const u8{
 	"sly",
 	"tabosc2~",
 	"tabread2~",
+	"unpaq",
 };
 
 pub fn build(b: *std.Build) void {
