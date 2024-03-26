@@ -1,4 +1,4 @@
-#N canvas 400 200 520 340 16;
+#N canvas 400 200 570 340 16;
 #X floatatom 210 280 0 0 0 0 - - - 0;
 #X msg 320 190 25;
 #X msg 220 150 123;
@@ -11,7 +11,7 @@
 #X obj 230 30 cnv 15 72 24 empty empty cupqb 4 12 0 18 #000000 #fcfcfc 0;
 #X text 40 60 the left-most and right-most inlets will subtract and add to the current value respectively \, while the middle inlet will output the current value and allow for it to be set to a different value., f 49;
 #X msg 310 150 set 24;
-#X obj 210 230 cupqb 42 2;
+#X obj 220 220 cupqb 42 2;
 #X msg 320 220 set 10;
 #X connect 1 0 12 2;
 #X connect 2 0 12 1;

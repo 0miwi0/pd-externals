@@ -1,13 +1,12 @@
 #N canvas 400 200 350 250 16;
-#X obj 90 90 inlet;
-#X obj 160 90 inlet;
-#X obj 220 90 inlet;
-#X obj 90 120 pack 0 \$1;
-#X obj 90 150 line \$2 \$3;
-#X obj 90 180 outlet;
-#X text 70 60 ramp between value changes;
-#X obj 160 30 cnv 15 36 24 empty empty zp 4 12 0 18 #000000 #fcfcfc
-0;
+#X obj 80 90 inlet;
+#X obj 150 90 inlet;
+#X obj 210 90 inlet;
+#X obj 80 120 pack 0 \$1;
+#X obj 80 150 line \$2 \$3;
+#X obj 80 180 outlet;
+#X text 40 60 ramp between value changes;
+#X obj 150 30 cnv 15 30 27 empty empty zp 0 12 0 24 #535512 #fcfcfc 0;
 #X connect 0 0 3 0;
 #X connect 1 0 3 1;
 #X connect 2 0 4 2;
