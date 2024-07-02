@@ -7,11 +7,15 @@ const Options = struct {
 };
 
 const externals = [_][]const u8{
+	"fldec",
+	"flenc",
 	"has",
 	"is",
 	"rand",
 	"rind",
 	"same",
+	"slx",
+	"sly",
 	"tabosc2~",
 	"tabread2~",
 };
