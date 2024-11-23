@@ -7,6 +7,22 @@
             .url = "https://github.com/myQwil/pd_module/archive/refs/tags/v0.1.1.tar.gz",
             .hash = "1220b229e7dd8cf1a645df901880f8dbb703df0166a992e22c2ff95e4235abe65db4",
         },
+        .game_music_emu = .{
+            .url = "https://github.com/myQwil/game-music-emu/archive/refs/heads/master.tar.gz",
+            .hash = "12202c1cb1b9852d4258e923760734a8f0d884247f155c54f543a3f492bff793b6f2",
+        },
+        .unrar = .{
+            .url = "https://github.com/myQwil/unrar/archive/refs/heads/master.tar.gz",
+            .hash = "12201a7f71e729a624ed62cfa90674094678c78dc329f2eeaf08a8986da6a771df8c",
+        },
+        .libsamplerate = .{
+            .url = "https://github.com/myQwil/libsamplerate/archive/refs/heads/main.tar.gz",
+            .hash = "1220a4f44c24c79807980cf6f2dcad0eb2da9f6099004f97fe70e86c88f93e6919fd",
+        },
+        .rubberband = .{
+            .url = "https://github.com/myQwil/rubberband/archive/refs/tags/v0.1.0.tar.gz",
+            .hash = "12201464abd718bf9df08e3ec88a226338585533644df4c4aadd7c0b4561cd30d2bf",
+        },
     },
     .paths = .{
         "abstractions",
